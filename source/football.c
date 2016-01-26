@@ -8,7 +8,7 @@ void initBallfoot(Ball *sprite, u8* gfx, OamState *oam)
 }
 
 
-int is_capture2(Ball ball_main, int x, int y)
+int is_kick(Ball ball_main, int x, int y)
 {
   int x0 = ball_main.x + BIG_BALL_RADIUS - 6;
   int y0 = ball_main.y + BIG_BALL_RADIUS - 6;
@@ -22,16 +22,16 @@ int is_capture2(Ball ball_main, int x, int y)
 
 int kick(Ball *ball, int x, int y)
 {
-  int sum=0;
-  if(is_capture2(*ball,x,y)==0)
-    return sum;
-  sum = abs(ball->vx) + abs(ball->vy);
-  ball->vx = (ball->x+BIG_BALL_RADIUS-x)/4;
-  if (ball->y+BIG_BALL_RADIUS > y)
-  ball->a = ball->vy = (int)(ball->y+BIG_BALL_RADIUS-y)/3 + 4;
-  else 
-  ball->a = ball->vy = (int)(ball->y+BIG_BALL_RADIUS-y)/3 - 4;
-  return sum;
+   int sum=0;
+   if(is_kick(*ball,x,y)==0)
+     return sum;
+   sum = abs(ball->vx) + abs(ball->vy);
+   ball->vx = (ball->x+BIG_BALL_RADIUS-x)/4;
+   if (ball->y+BIG_BALL_RADIUS > y)
+     ball->a = ball->vy = (int)(ball->y+BIG_BALL_RADIUS-y)/3 + 4;
+   else 
+     ball->a = ball->vy = (int)(ball->y+BIG_BALL_RADIUS-y)/3 - 4;
+   return sum;
 }
 
 int ball_vs_area(Ball *ball)

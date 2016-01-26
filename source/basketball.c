@@ -45,12 +45,6 @@ int rebound_from_ring(Ball ball)
   return 0;
 }
 
-int sq_d(int x0, int y0, int x, int y)
-{
-   return (x0-x)*(x0-x) + (y0-y) * (y0-y);
-}
-
-
 TURN ball_vs_basket2(Ball ball, Basket basket)
 {
    Point basket_point[]={{225,102},{219,100},{226,100},{240,84},{240,40}};
@@ -170,7 +164,7 @@ void ballreset(Ball *ball)
 }
 int basketball(int REC)
 {
-	int is_touch=0, flag=0, prev_touch=0; /*flags*/
+	int is_touch=0, flag=0, prev_touch=0,exit=1; /*flags*/
 	int dx,dy;
 	int i=0;
 	int pos_score=218, pos_time=33, pos_rec=33;
@@ -224,7 +218,7 @@ int basketball(int REC)
 		
 	
 	timerStart(0, ClockDivider_1024, TIMER_FREQ_1024(1), timerCallBack);
-	while(TIME) {
+	while(exit) {
 		swiWaitForVBlank();
 		scanKeys();
 		touchRead(&touch);
@@ -254,7 +248,7 @@ int basketball(int REC)
 		   flag=1;
 		}
 		/*control ball by touchpad*/   
-		//flag=0;
+		
 		if(flag)
 		{
 		   ball_main.vx=touch.px + dx - ball_main.x;
@@ -332,7 +326,7 @@ int basketball(int REC)
 		prepare_digits(SCORE,Points,Numbers,3);
 		prepare_timer(TIME,Timer,Numbers);
 		prepare_digits(RECORD,Record,Numbers,3);
-		
+		exit=TIME;
 		for(i=0;i<3;i++)
 		oamSet(&oamSub, i+2, Points[i].x, Points[i].y,  0, 0, SpriteSize_16x16, SpriteColorFormat_256Color, 
 			Points[i].sprite_gfx_mem, -1, 0, Points[i].hide, 0, 0, 0);	  
@@ -357,7 +351,7 @@ int basketball(int REC)
 		oamUpdate(&oamSub);
 		
 	}
-
+    wait_click();
 	oamClear(&oamMain,0,128);
 	oamClear(&oamSub,0,128);
 	oamUpdate(&oamMain);
