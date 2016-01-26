@@ -1,0 +1,1442 @@
+Archive member included to satisfy reference by file (symbol)
+
+g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                              basketball.o (scanKeys)
+g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+                              basketball.o (oamInit)
+g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(sprite.o) (sinLerp)
+g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+                              basketball.o (decompress)
+g:/devkitPro/libnds/lib\libnds9.a(system.o)
+                              basketball.o (powerOn)
+g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(sprite.o) (oamAllocReset)
+g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                              basketball.o (touchRead)
+g:/devkitPro/libnds/lib\libnds9.a(background.o)
+                              basketball.o (bgInit_call)
+g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (initSystem)
+g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (fifoSetValue32Handler)
+g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(decompress.o) (swiDecompressLZSSVram)
+g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (__libnds_exit)
+g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o) (irqSet)
+g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+                              basketball.o (timerStart)
+g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(sprite.o) (DC_FlushRange)
+g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (__libnds_mpu_setup)
+g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o) (swiSoftReset)
+g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(system.o) (swiDelay)
+g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(interrupts.o) (IntrMain)
+g:/devkitPro/libnds/lib\libnds9.a(video.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (vramDefault)
+g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (__libnds_gtod)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o)
+                              colors.o (__aeabi_idiv)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_dvmd_tls.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o) (__aeabi_idiv0)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_addsubdf3.o)
+                              football.o (__aeabi_dadd)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_fixdfsi.o)
+                              football.o (__aeabi_d2iz)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(trig.o) (bsearch)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (__libc_init_array)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o) (malloc)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o) (_malloc_r)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+                              basketball.o (memcpy)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+                              basketball.o (memset)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o) (__malloc_lock)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+                              colors.o (srand)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o) (realloc)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o) (_realloc_r)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+                              colors.o (time)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o) (_free_r)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o) (memmove)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o) (_gettimeofday_r)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o) (_sbrk_r)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (fake_heap_start)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o (build_argv)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+                              g:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (__syscalls)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o) (__getreent)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o) (__aeabi_lmul)
+g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                              g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+TIME                0x4               basketball.o
+fifo_datamsg_data   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+__dsimode           0x1               g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+bgState             0x140             g:/devkitPro/libnds/lib\libnds9.a(background.o)
+fifo_buffer         0x800             g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+bgIsTextLut         0x8               g:/devkitPro/libnds/lib\libnds9.a(background.o)
+fifo_value32_func   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_address_func   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_value32_data   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_value32_queue  0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_data_queue     0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+OamMemorySub        0x400             g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+punixTime           0x4               g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+fifo_address_data   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_datamsg_func   0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+OamMemory           0x400             g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+fifo_address_queue  0x40              g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x02000000
+ewram            0x02000000         0x003ff000
+dtcm             0x0b000000         0x00004000
+vectors          0x01000000         0x00000100
+itcm             0x01000100         0x00007f00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x01000000                __vectors_start = ORIGIN (vectors)
+                0x01000100                __itcm_start = ORIGIN (itcm)
+                0x023ff000                __ewram_end = (ORIGIN (ewram) + 0x3ff000)
+                0x023ff000                __eheap_end = (ORIGIN (ewram) + 0x3ff000)
+                0x0b000000                __dtcm_start = ORIGIN (dtcm)
+                0x0b004000                __dtcm_top = (ORIGIN (dtcm) + 0x4000)
+                0x0b003ff8                __irq_flags = (__dtcm_top - 0x8)
+                0x0b003ffc                __irq_vector = (__dtcm_top - 0x4)
+                0x0b003f00                __sp_svc = (__dtcm_top - 0x100)
+                0x0b003e00                __sp_irq = (__sp_svc - 0x100)
+                0x0b003d00                __sp_usr = (__sp_irq - 0x100)
+
+.init           0x02000000      0x23c
+                0x02000000                __text_start = .
+ *(.init)
+ .init          0x02000000      0x230 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+                0x02000000                _start
+ .init          0x02000230        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+                0x02000230                _init
+ .init          0x02000234        0x8 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+                0x0200023c                . = ALIGN (0x4)
+
+.plt
+ *(.plt)
+
+.text           0x02000240     0x6558
+ *(EXCLUDE_FILE(*.itcm*) .text)
+ .text          0x02000240        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+ .text          0x02000240        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+ .text          0x02000240       0xd4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .text          0x02000314        0x0 Menu_screen.o
+ .text          0x02000314        0x0 Menu_screen_sub.o
+ .text          0x02000314        0x0 basketball_main.o
+ .text          0x02000314        0x0 basketball_sub.o
+ .text          0x02000314        0x0 coulours_main.o
+ .text          0x02000314        0x0 coulours_sub.o
+ .text          0x02000314        0x0 football_main.o
+ .text          0x02000314        0x0 football_sub.o
+ .text          0x02000314        0x0 help_basketball.o
+ .text          0x02000314        0x0 help_colors.o
+ .text          0x02000314        0x0 help_football.o
+ .text          0x02000314      0xacc basketball.o
+                0x02000314                timerCallBack
+                0x02000324                initBall
+                0x02000378                initBasket
+                0x020003bc                is_capture
+                0x02000400                rebound_from_ring
+                0x02000460                sq_d
+                0x02000474                ball_vs_basket2
+                0x02000514                ball_vs_net
+                0x020005c0                ball_vs_basket1
+                0x02000704                is_point
+                0x0200074c                ballreset
+                0x020007a0                basketball
+ .text          0x02000de0      0xaf4 colors.o
+                0x02000de0                timerCallBack2
+                0x02000df0                initPlus0
+                0x02000e50                initPlus
+                0x02000e6c                initColour
+                0x02000ed8                initColours
+                0x02000f74                initElement
+                0x02000f88                prepare_squares
+                0x02000fbc                initCorrect
+                0x02001038                checkSet
+                0x02001118                read_color
+                0x0200114c                colors
+ *fill*         0x020018d4        0x4 ff
+ .text          0x020018d8      0x590 football.o
+                0x020018d8                initBallfoot
+                0x02001914                is_capture2
+                0x02001958                kick
+                0x020019e8                ball_vs_area
+                0x02001a68                football
+ .text          0x02001e68        0x0 main.o
+ .text          0x02001e68      0x7cc menu.o
+                0x02001e68                is_basket
+                0x02001ea0                is_football
+                0x02001ed8                is_color
+                0x02001f10                is_continue
+                0x02001f58                is_play
+                0x02001f90                is_man
+                0x02001fc8                initNumber
+                0x02002040                initNumbers
+                0x02002090                init_border
+                0x020020f8                manual
+                0x020021bc                menu
+ .text          0x02002634      0x1c4 template.o
+                0x02002634                wait_click
+                0x02002664                prepare_digits
+                0x020026d8                prepare_timer
+                0x02002730                initNum0
+                0x020027a8                initNum
+ .text          0x020027f8        0x0 Coulours_Sprites.o
+ .text          0x020027f8        0x0 Sprites.o
+ .text          0x020027f8        0x0 football_sprites.o
+ .text          0x020027f8        0x0 menu_sprites.o
+ .text          0x020027f8       0xf4 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                0x020027f8                scanKeys
+                0x02002864                keysHeld
+                0x02002870                keysDown
+                0x02002880                keysDownRepeat
+                0x02002890                keysSetRepeat
+                0x020028a8                keysUp
+                0x020028b8                keysCurrent
+ .text          0x020028ec      0x3fc g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+                0x020028ec                oamInit
+                0x02002a08                oamDisable
+                0x02002a34                oamEnable
+                0x02002a54                oamGetGfxPtr
+                0x02002a8c                oamClear
+                0x02002ab4                oamGfxPtrToOffset
+                0x02002ae4                oamSet
+                0x02002c38                oamUpdate
+                0x02002c98                oamRotateScale
+ .text          0x02002ce8      0x244 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+                0x02002ce8                asinComp
+                0x02002d0c                sinLutLookup
+                0x02002d44                sinLerp
+                0x02002d80                cosLerp
+                0x02002d94                tanLutLookup
+                0x02002dcc                tanLerp
+                0x02002e74                asinLerp
+                0x02002ef0                acosLerp
+                0x02002f04                atanComp
+ .text          0x02002f2c       0x84 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+                0x02002f2c                getHeader
+                0x02002f30                readByte
+                0x02002f34                decompress
+                0x02002f74                decompressStream
+ .text          0x02002fb0      0x134 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+                0x02002fb0                setSDcallback
+                0x02002fbc                systemMsgHandler
+                0x0200300c                systemSleep
+                0x02003024                systemValueHandler
+                0x02003060                powerOn
+                0x0200308c                powerOff
+                0x020030b4                ledBlink
+                0x020030c4                getBatteryLevel
+ .text          0x020030e4      0x45c g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+                0x02003114                oamAllocReset
+                0x02003130                oamAllocateGfx
+                0x02003360                oamFreeGfx
+                0x020034f0                oamCountFragments
+ .text          0x02003540       0x48 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                0x02003540                touchRead
+                0x02003564                touchReadXY
+ .text          0x02003588      0x350 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+                0x02003588                bgIsText
+                0x02003594                checkIfText
+                0x020035ec                bgUpdate
+                0x020036e0                bgInit_call
+                0x020037d0                bgInitSub_call
+ .text          0x020038d8      0x14c g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                0x020038d8                initSystem
+ .text          0x02003a24      0xcb8 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x02003ce8                fifoSetValue32Handler
+                0x02003d5c                fifoSendAddress
+                0x02003d88                fifoSendValue32
+                0x02003dc4                fifoSendDatamsg
+                0x02003e38                fifoGetAddress
+                0x02003ea4                fifoSetAddressHandler
+                0x02003f18                fifoGetValue32
+                0x02003f2c                fifoGetDatamsg
+                0x020043e0                fifoSetDatamsgHandler
+                0x02004474                fifoCheckAddress
+                0x02004498                fifoCheckDatamsg
+                0x020044bc                fifoCheckDatamsgLength
+                0x020044ec                fifoCheckValue32
+                0x02004510                fifoInit
+ .text          0x020046dc       0x1c g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+                0x020046dc                swiDecompressLZSSVram
+ .text          0x020046f8       0x5c g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+                0x020046f8                systemErrorExit
+                0x020046fc                __libnds_exit
+ .text          0x02004754      0x1ec g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                0x02004754                irqDummy
+                0x02004758                irqSet
+                0x020047c4                irqInit
+                0x02004810                irqInitHandler
+                0x02004840                irqEnable
+                0x020048a4                irqDisable
+                0x02004908                irqClear
+ .text          0x02004940      0x1b4 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+                0x02004940                timerStart
+                0x02004988                timerElapsed
+                0x020049b8                timerPause
+                0x020049f8                timerStop
+                0x02004a34                cpuStartTiming
+                0x02004a70                cpuGetTiming
+                0x02004aac                cpuEndTiming
+ .text          0x02004af4       0x88 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+                0x02004af4                DC_FlushAll
+                0x02004b20                DC_FlushRange
+                0x02004b44                DC_InvalidateAll
+                0x02004b50                DC_InvalidateRange
+ .text          0x02004b7c      0x1b4 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+                0x02004b7c                __libnds_mpu_setup
+                0x02004cbc                memCached
+                0x02004cd4                memUncached
+ .text          0x02004d30       0x30 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+                0x02004d30                swiSoftReset
+ .text          0x02004d60       0x70 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+                0x02004d60                swiDelay
+                0x02004d64                swiIntrWait
+                0x02004d68                swiWaitForVBlank
+                0x02004d6c                swiSleep
+                0x02004d70                swiChangeSoundBias
+                0x02004d74                swiDivide
+                0x02004d78                swiRemainder
+                0x02004d7e                swiDivMod
+                0x02004d8a                swiCopy
+                0x02004d8e                swiFastCopy
+                0x02004d92                swiSqrt
+                0x02004d96                swiCRC16
+                0x02004d9a                swiIsDebugger
+                0x02004d9e                swiUnpackBits
+                0x02004da2                swiDecompressLZSSWram
+                0x02004da6                swiDecompressLZSSVramNTR
+                0x02004daa                swiDecompressLZSSVramTWL
+                0x02004dae                swiDecompressHuffman
+                0x02004db2                swiDecompressRLEWram
+                0x02004db6                swiDecompressRLEVram
+                0x02004dba                swiWaitForIRQ
+                0x02004dbe                swiDecodeDelta8
+                0x02004dc2                swiDecodeDelta16
+                0x02004dc6                swiSetHaltCR
+ .text          0x02004dd0        0x0 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .text          0x02004dd0      0x1f8 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+                0x02004dd0                vramSetPrimaryBanks
+                0x02004e14                vramSetMainBanks
+                0x02004e58                vramSetBanks_EFG
+                0x02004e90                vramRestorePrimaryBanks
+                0x02004e9c                vramRestoreMainBanks
+                0x02004ea8                vramRestoreBanks_EFG
+                0x02004eb4                setBrightness
+                0x02004ef4                vramDefault
+ .text          0x02004fc8       0x24 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+                0x02004fc8                __libnds_gtod
+ .text          0x02004fec      0x150 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o)
+                0x02004fec                __divsi3
+                0x02004fec                __aeabi_idiv
+                0x0200511c                __aeabi_idivmod
+ .text          0x0200513c        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_dvmd_tls.o)
+                0x0200513c                __aeabi_idiv0
+                0x0200513c                __aeabi_ldiv0
+ .text          0x02005140      0x41c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_addsubdf3.o)
+                0x02005140                __aeabi_drsub
+                0x02005148                __aeabi_dsub
+                0x02005148                __subdf3
+                0x0200514c                __aeabi_dadd
+                0x0200514c                __adddf3
+                0x0200545c                __floatunsidf
+                0x0200545c                __aeabi_ui2d
+                0x02005480                __floatsidf
+                0x02005480                __aeabi_i2d
+                0x020054a8                __aeabi_f2d
+                0x020054a8                __extendsfdf2
+                0x020054e8                __floatundidf
+                0x020054e8                __aeabi_ul2d
+                0x020054fc                __floatdidf
+                0x020054fc                __aeabi_l2d
+ .text          0x0200555c       0x5c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_fixdfsi.o)
+                0x0200555c                __aeabi_d2iz
+                0x0200555c                __fixdfsi
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .text          0x020055b8        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .text          0x020055b8       0x28 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+                0x020055b8                _gettimeofday_r
+ .text          0x020055e0       0x54 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+                0x020055e0                _sbrk_r
+ .text          0x02005634        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .text          0x02005634       0x50 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+                0x02005634                build_argv
+ .text          0x02005684      0x104 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+                0x02005684                __libc_lock_init
+                0x0200569c                __libc_lock_acquire
+                0x020056b4                __libc_lock_try_acquire
+                0x020056d4                __libc_lock_release
+                0x020056ec                __libc_lock_close
+                0x02005704                __libc_lock_init_recursive
+                0x0200571c                __libc_lock_acquire_recursive
+                0x02005734                __libc_lock_try_acquire_recursive
+                0x02005754                __libc_lock_release_recursive
+                0x0200576c                __libc_lock_close_recursive
+ .text          0x02005788       0x28 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+                0x02005788                __getreent
+ .text          0x020057b0       0x60 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+                0x020057b0                __muldi3
+                0x020057b0                __aeabi_lmul
+ .text          0x02005810        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .text          0x02005810        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+ .text          0x02005810        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+ *(.text.*)
+ .text.startup  0x02005810       0x70 main.o
+                0x02005810                main
+ .text.bsearch  0x02005880       0x64 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+                0x02005880                bsearch
+ .text.__libc_init_array
+                0x020058e4       0x58 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+                0x020058e4                __libc_init_array
+ .text.malloc   0x0200593c       0x14 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+                0x0200593c                malloc
+ .text.free     0x02005950       0x14 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+                0x02005950                free
+ .text._malloc_r
+                0x02005964      0x54c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x02005964                _malloc_r
+ .text.memcpy   0x02005eb0       0x84 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+                0x02005eb0                memcpy
+ .text.memset   0x02005f34       0x98 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+                0x02005f34                memset
+ .text.__malloc_lock
+                0x02005fcc        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+                0x02005fcc                __malloc_lock
+ .text.__malloc_unlock
+                0x02005fd0        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+                0x02005fd0                __malloc_unlock
+ .text.srand    0x02005fd4       0x18 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+                0x02005fd4                srand
+ *fill*         0x02005fec        0x4 ff
+ .text.rand     0x02005ff0       0x38 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+                0x02005ff0                rand
+ .text.realloc  0x02006028       0x18 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+                0x02006028                realloc
+ .text._realloc_r
+                0x02006040      0x3dc g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+                0x02006040                _realloc_r
+ .text.time     0x0200641c       0x2c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+                0x0200641c                time
+ .text._malloc_trim_r
+                0x02006448       0xa4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+                0x02006448                _malloc_trim_r
+ .text._free_r  0x020064ec      0x1b0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+                0x020064ec                _free_r
+ .text.memmove  0x0200669c       0x9c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+                0x0200669c                memmove
+ .text.memmove.__stub
+                0x02006738       0x58 linker stubs
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7)
+ .glue_7        0x02006798        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x02006798        0x0 linker stubs
+                0x02006798                . = ALIGN (0x4)
+
+.vfp11_veneer   0x02006798        0x0
+ .vfp11_veneer  0x02006798        0x0 linker stubs
+
+.v4_bx          0x02006798        0x0
+ .v4_bx         0x02006798        0x0 linker stubs
+
+.iplt           0x02006798        0x0
+ .iplt          0x02006798        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+
+.fini           0x02006798        0xc
+ *(.fini)
+ .fini          0x02006798        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+                0x02006798                _fini
+ .fini          0x0200679c        0x8 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+                0x020067a4                __text_end = .
+
+.rodata         0x020067a4    0x64f9c
+ *(.rodata)
+ .rodata        0x020067a4     0x81d8 Menu_screen.o
+                0x020067a4                Menu_screenBitmap
+ .rodata        0x0200e97c     0x9e50 Menu_screen_sub.o
+                0x0200e97c                Menu_screen_subBitmap
+ .rodata        0x020187cc     0xa64c basketball_main.o
+                0x020187cc                basketball_mainBitmap
+ .rodata        0x02022e18     0x7988 basketball_sub.o
+                0x02022e18                basketball_subBitmap
+ .rodata        0x0202a7a0     0x8ae4 coulours_main.o
+                0x0202a7a0                coulours_mainBitmap
+ .rodata        0x02033284     0x74d4 coulours_sub.o
+                0x02033284                coulours_subBitmap
+ .rodata        0x0203a758     0x75c4 football_main.o
+                0x0203a758                football_mainBitmap
+ .rodata        0x02041d1c     0x7588 football_sub.o
+                0x02041d1c                football_subBitmap
+ .rodata        0x020492a4     0x6a54 help_basketball.o
+                0x020492a4                help_basketballBitmap
+ .rodata        0x0204fcf8     0x8318 help_colors.o
+                0x0204fcf8                help_colorsBitmap
+ .rodata        0x02058010     0x6bd4 help_football.o
+                0x02058010                help_footballBitmap
+ .rodata        0x0205ebe4       0x38 basketball.o
+ .rodata        0x0205ec1c     0x4200 Coulours_Sprites.o
+                0x0205ec1c                Coulours_SpritesTiles
+                0x02062c1c                Coulours_SpritesPal
+ .rodata        0x02062e1c     0x2200 Sprites.o
+                0x02062e1c                SpritesTiles
+                0x02064e1c                SpritesPal
+ .rodata        0x0206501c     0x2200 football_sprites.o
+                0x0206501c                football_spritesTiles
+                0x0206701c                football_spritesPal
+ .rodata        0x0206721c     0x4200 menu_sprites.o
+                0x0206721c                menu_spritesTiles
+                0x0206b21c                menu_spritesPal
+ .rodata        0x0206b41c      0x308 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+                0x0206b41c                SIN_LUT
+                0x0206b520                TAN_LUT
+ .rodata        0x0206b724       0x14 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0206b738        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0206b73c        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                0x0206b73c                _global_impure_ptr
+ *(.gnu.linkonce.r*)
+                0x0206b740                . = ALIGN (0x4)
+
+.rel.dyn        0x0206b740        0x0
+ .rel.iplt      0x0206b740        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0206b740                __exidx_start = .
+
+ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0206b740                __exidx_end = .
+                0x0206b740                . = ALIGN (0x4)
+                0x0206b740                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x0206b740                PROVIDE (__preinit_array_end, .)
+                0x0206b740                PROVIDE (__init_array_start, .)
+
+.init_array     0x0206b740        0x4
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0206b740        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+                0x0206b744                PROVIDE (__init_array_end, .)
+                0x0206b744                PROVIDE (__fini_array_start, .)
+
+.fini_array     0x0206b744        0x4
+ *(.fini_array)
+ .fini_array    0x0206b744        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0206b748                PROVIDE (__fini_array_end, .)
+
+.ctors          0x0206b748        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0206b748                . = ALIGN (0x4)
+
+.dtors          0x0206b748        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0206b748                . = ALIGN (0x4)
+
+.eh_frame       0x0206b748        0x4
+ *(.eh_frame)
+ .eh_frame      0x0206b748        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .eh_frame      0x0206b748        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+                0x0206b74c                . = ALIGN (0x4)
+
+.gcc_except_table
+                0x0206b74c        0x0
+ *(.gcc_except_table)
+                0x0206b74c                . = ALIGN (0x4)
+
+.jcr            0x0206b74c        0x4
+ *(.jcr)
+ .jcr           0x0206b74c        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .jcr           0x0206b74c        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+
+.got
+ *(.got.plt)
+ *(.got)
+ *(.rel.got)
+
+.ewram          0x0206b750        0x0
+                0x0206b750                __ewram_start = ABSOLUTE (.)
+ *(.ewram)
+ *ewram.*(.text)
+                0x0206b750                . = ALIGN (0x4)
+
+.data           0x0206b750      0x8f4
+                0x0206b750                __data_start = ABSOLUTE (.)
+ *(.data)
+ .data          0x0206b750        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+ .data          0x0206b750        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+ .data          0x0206b750        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+                0x0206b750                __dso_handle
+ .data          0x0206b754        0x0 Menu_screen.o
+ .data          0x0206b754        0x0 Menu_screen_sub.o
+ .data          0x0206b754        0x0 basketball_main.o
+ .data          0x0206b754        0x0 basketball_sub.o
+ .data          0x0206b754        0x0 coulours_main.o
+ .data          0x0206b754        0x0 coulours_sub.o
+ .data          0x0206b754        0x0 football_main.o
+ .data          0x0206b754        0x0 football_sub.o
+ .data          0x0206b754        0x0 help_basketball.o
+ .data          0x0206b754        0x0 help_colors.o
+ .data          0x0206b754        0x0 help_football.o
+ .data          0x0206b754        0x0 basketball.o
+ .data          0x0206b754        0x0 colors.o
+ .data          0x0206b754        0x0 football.o
+ .data          0x0206b754        0x0 main.o
+ .data          0x0206b754        0x0 menu.o
+ .data          0x0206b754        0x0 template.o
+ .data          0x0206b754        0x0 Coulours_Sprites.o
+ .data          0x0206b754        0x0 Sprites.o
+ .data          0x0206b754        0x0 football_sprites.o
+ .data          0x0206b754        0x0 menu_sprites.o
+ .data          0x0206b754        0x3 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ *fill*         0x0206b757        0x1 ff
+ .data          0x0206b758       0x30 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+                0x0206b758                oamMain
+                0x0206b770                oamSub
+ .data          0x0206b788        0x0 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .data          0x0206b788        0xc g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+                0x0206b788                decomStream
+ .data          0x0206b794        0x0 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .data          0x0206b794        0x0 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .data          0x0206b794        0x0 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .data          0x0206b794       0x60 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+                0x0206b794                bgScrollTable
+                0x0206b7b4                bgTransform
+                0x0206b7d4                bgControl
+ .data          0x0206b7f4        0x0 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .data          0x0206b7f4       0x10 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x0206b7f4                fifo_buffer_free
+                0x0206b7f8                fifo_freewords
+                0x0206b7fc                fifo_send_queue
+                0x0206b800                fifo_receive_queue
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .data          0x0206b804        0x0 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_dvmd_tls.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_addsubdf3.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_fixdfsi.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+ .data          0x0206b804        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+ *(.data.*)
+ .data.__malloc_av_
+                0x0206b804      0x408 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206b804                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x0206bc0c        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206bc0c                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x0206bc10        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206bc10                __malloc_sbrk_base
+ *fill*         0x0206bc14        0x4 ff
+ .data.impure_data
+                0x0206bc18      0x428 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0206c040        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                0x0206c040                _impure_ptr
+ *(.gnu.linkonce.d*)
+                0x0206c044                . = ALIGN (0x4)
+                0x0206c044                __data_end = ABSOLUTE (.)
+                0x0206c044                __dtcm_lma = .
+                0x0206c044                __bss_vma = .
+
+.igot.plt       0x0206c044        0x0
+ .igot.plt      0x0206c044        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+
+.tm_clone_table
+                0x0206c044        0x0
+ .tm_clone_table
+                0x0206c044        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .tm_clone_table
+                0x0206c044        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+
+.dtcm           0x0b000000        0x0 load address 0x0206c044
+ *(.dtcm)
+ *(.dtcm.*)
+                0x0b000000                . = ALIGN (0x4)
+                0x0b000000                __dtcm_end = ABSOLUTE (.)
+                0x0206c044                __itcm_lma = (__dtcm_lma + SIZEOF (.dtcm))
+
+.itcm           0x01000100      0x194 load address 0x0206c044
+ *(.itcm)
+ .itcm          0x01000100       0xc8 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                0x01000100                irqTable
+ .itcm          0x010001c8       0xcc g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+                0x010001c8                IntrMain
+ *itcm.*(.text)
+                0x01000294                . = ALIGN (0x4)
+                0x01000294                __itcm_end = ABSOLUTE (.)
+                0x0206c1d8                __vectors_lma = (__itcm_lma + SIZEOF (.itcm))
+
+.vectors        0x01000000        0x0 load address 0x0206c1d8
+ *(.vectors)
+ *vectors.*(.text)
+                0x01000000                . = ALIGN (0x4)
+                0x01000000                __vectors_end = ABSOLUTE (.)
+
+.sbss           0x0b000000        0x0
+                0x0b000000                __sbss_start = ABSOLUTE (.)
+                0x0b000000                __sbss_start__ = ABSOLUTE (.)
+ *(.sbss)
+                0x0b000000                . = ALIGN (0x4)
+                0x0b000000                __sbss_end = ABSOLUTE (.)
+
+.bss            0x0206c044     0x1450
+                0x0206c044                __bss_start = ABSOLUTE (.)
+                0x0206c044                __bss_start__ = ABSOLUTE (.)
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ .bss           0x0206c044        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+ .bss           0x0206c044        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+ .bss           0x0206c044       0x1c g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .bss           0x0206c060        0x0 Menu_screen.o
+ .bss           0x0206c060        0x0 Menu_screen_sub.o
+ .bss           0x0206c060        0x0 basketball_main.o
+ .bss           0x0206c060        0x0 basketball_sub.o
+ .bss           0x0206c060        0x0 coulours_main.o
+ .bss           0x0206c060        0x0 coulours_sub.o
+ .bss           0x0206c060        0x0 football_main.o
+ .bss           0x0206c060        0x0 football_sub.o
+ .bss           0x0206c060        0x0 help_basketball.o
+ .bss           0x0206c060        0x0 help_colors.o
+ .bss           0x0206c060        0x0 help_football.o
+ .bss           0x0206c060        0x0 basketball.o
+ .bss           0x0206c060        0x0 colors.o
+ .bss           0x0206c060        0x0 football.o
+ .bss           0x0206c060        0x0 main.o
+ .bss           0x0206c060        0x0 menu.o
+ .bss           0x0206c060        0x0 template.o
+ .bss           0x0206c060        0x0 Coulours_Sprites.o
+ .bss           0x0206c060        0x0 Sprites.o
+ .bss           0x0206c060        0x0 football_sprites.o
+ .bss           0x0206c060        0x0 menu_sprites.o
+ .bss           0x0206c060        0x6 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .bss           0x0206c066        0x0 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .bss           0x0206c066        0x0 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .bss           0x0206c066        0x0 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ *fill*         0x0206c066        0x2 
+ .bss           0x0206c068        0x4 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .bss           0x0206c06c        0x0 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .bss           0x0206c06c        0x0 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .bss           0x0206c06c        0x0 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .bss           0x0206c06c        0x0 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .bss           0x0206c06c        0x8 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x0206c070                processing
+ .bss           0x0206c074        0x0 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .bss           0x0206c074        0x0 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .bss           0x0206c074        0x0 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .bss           0x0206c074        0xc g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+                0x0206c074                elapsed
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .bss           0x0206c080        0x0 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_dvmd_tls.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .bss           0x0206c080        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .bss.__malloc_max_total_mem
+                0x0206c080        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206c080                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x0206c084        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206c084                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x0206c088        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206c088                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x0206c08c       0x28 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0206c08c                __malloc_current_mallinfo
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .bss           0x0206c0b4        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+ .bss           0x0206c0b4        0x4 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .bss           0x0206c0b8        0x8 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+                0x0206c0b8                fake_heap_start
+                0x0206c0bc                fake_heap_end
+ .bss           0x0206c0c0        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .bss           0x0206c0c0       0x40 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+                0x0206c0c0                __syscalls
+ .bss           0x0206c100        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+ .bss           0x0206c100        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+ .bss           0x0206c100        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .bss           0x0206c100        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+ .bss           0x0206c100        0x0 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+ *(COMMON)
+ COMMON         0x0206c100        0x4 basketball.o
+                0x0206c100                TIME
+ COMMON         0x0206c104      0x800 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+                0x0206c104                OamMemorySub
+                0x0206c504                OamMemory
+ COMMON         0x0206c904      0x148 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+                0x0206c904                bgState
+                0x0206ca44                bgIsTextLut
+ COMMON         0x0206ca4c        0x1 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                0x0206ca4c                __dsimode
+ *fill*         0x0206ca4d        0x3 
+ COMMON         0x0206ca50      0xa40 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x0206ca50                fifo_datamsg_data
+                0x0206ca90                fifo_buffer
+                0x0206d290                fifo_value32_func
+                0x0206d2d0                fifo_address_func
+                0x0206d310                fifo_value32_data
+                0x0206d350                fifo_value32_queue
+                0x0206d390                fifo_data_queue
+                0x0206d3d0                fifo_address_data
+                0x0206d410                fifo_datamsg_func
+                0x0206d450                fifo_address_queue
+ COMMON         0x0206d490        0x4 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+                0x0206d490                punixTime
+                0x0206d494                . = ALIGN (0x4)
+                0x0206d494                __bss_end__ = ABSOLUTE (.)
+                0x0206d494                __end__ = ABSOLUTE (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x22
+ *(.comment)
+ .comment       0x00000000       0x22 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000022       0x23 basketball.o
+ .comment       0x00000022       0x23 colors.o
+ .comment       0x00000022       0x23 football.o
+ .comment       0x00000022       0x23 main.o
+ .comment       0x00000022       0x23 menu.o
+ .comment       0x00000022       0x23 template.o
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .comment       0x00000022       0x23 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .comment       0x00000022       0x23 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+ .ARM.attributes
+                0x00000021       0x16 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+ .ARM.attributes
+                0x00000037       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+ .ARM.attributes
+                0x00000067       0x14 Menu_screen.o
+ .ARM.attributes
+                0x0000007b       0x14 Menu_screen_sub.o
+ .ARM.attributes
+                0x0000008f       0x14 basketball_main.o
+ .ARM.attributes
+                0x000000a3       0x14 basketball_sub.o
+ .ARM.attributes
+                0x000000b7       0x14 coulours_main.o
+ .ARM.attributes
+                0x000000cb       0x14 coulours_sub.o
+ .ARM.attributes
+                0x000000df       0x14 football_main.o
+ .ARM.attributes
+                0x000000f3       0x14 football_sub.o
+ .ARM.attributes
+                0x00000107       0x14 help_basketball.o
+ .ARM.attributes
+                0x0000011b       0x14 help_colors.o
+ .ARM.attributes
+                0x0000012f       0x14 help_football.o
+ .ARM.attributes
+                0x00000143       0x27 basketball.o
+ .ARM.attributes
+                0x0000016a       0x27 colors.o
+ .ARM.attributes
+                0x00000191       0x27 football.o
+ .ARM.attributes
+                0x000001b8       0x27 main.o
+ .ARM.attributes
+                0x000001df       0x27 menu.o
+ .ARM.attributes
+                0x00000206       0x27 template.o
+ .ARM.attributes
+                0x0000022d       0x14 Coulours_Sprites.o
+ .ARM.attributes
+                0x00000241       0x14 Sprites.o
+ .ARM.attributes
+                0x00000255       0x14 football_sprites.o
+ .ARM.attributes
+                0x00000269       0x14 menu_sprites.o
+ .ARM.attributes
+                0x0000027d       0x27 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .ARM.attributes
+                0x000002a4       0x27 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .ARM.attributes
+                0x000002cb       0x27 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .ARM.attributes
+                0x000002f2       0x27 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .ARM.attributes
+                0x00000319       0x27 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .ARM.attributes
+                0x00000340       0x27 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .ARM.attributes
+                0x00000367       0x27 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .ARM.attributes
+                0x0000038e       0x27 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .ARM.attributes
+                0x000003b5       0x27 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .ARM.attributes
+                0x000003dc       0x27 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .ARM.attributes
+                0x00000403       0x27 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .ARM.attributes
+                0x0000042a       0x27 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .ARM.attributes
+                0x00000451       0x27 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .ARM.attributes
+                0x00000478       0x27 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .ARM.attributes
+                0x0000049f       0x1b g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .ARM.attributes
+                0x000004ba       0x21 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .ARM.attributes
+                0x000004db       0x21 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .ARM.attributes
+                0x000004fc       0x1b g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .ARM.attributes
+                0x00000517       0x1b g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .ARM.attributes
+                0x00000532       0x27 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .ARM.attributes
+                0x00000559       0x27 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+ .ARM.attributes
+                0x00000580       0x18 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000598       0x16 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000005ae       0x18 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000005c6       0x18 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000005de       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-bsearch.o)
+ .ARM.attributes
+                0x0000060e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000063e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000066e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000069e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000006ce       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006fe       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000072e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-rand.o)
+ .ARM.attributes
+                0x0000075e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .ARM.attributes
+                0x0000078e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x000007be       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .ARM.attributes
+                0x000007ee       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000081e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000084e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(gettod.o)
+ .ARM.attributes
+                0x0000087e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .ARM.attributes
+                0x000008ae       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .ARM.attributes
+                0x000008de       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .ARM.attributes
+                0x0000090e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .ARM.attributes
+                0x0000093e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a(getreent.o)
+ .ARM.attributes
+                0x0000096e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x0000099e       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000009ce       0x30 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+ .ARM.attributes
+                0x000009fe       0x16 g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x360
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 basketball.o
+ .debug_aranges
+                0x00000020       0x20 colors.o
+ .debug_aranges
+                0x00000040       0x20 football.o
+ .debug_aranges
+                0x00000060       0x20 main.o
+ .debug_aranges
+                0x00000080       0x20 menu.o
+ .debug_aranges
+                0x000000a0       0x20 template.o
+ .debug_aranges
+                0x000000c0       0x20 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_aranges
+                0x000000e0       0x20 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_aranges
+                0x00000100       0x20 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_aranges
+                0x00000120       0x20 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_aranges
+                0x00000140       0x20 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_aranges
+                0x00000160       0x20 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_aranges
+                0x00000180       0x20 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_aranges
+                0x000001a0       0x20 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_aranges
+                0x000001c0       0x20 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_aranges
+                0x000001e0       0x20 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_aranges
+                0x00000200       0x20 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_aranges
+                0x00000220       0x20 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_aranges
+                0x00000240       0x20 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_aranges
+                0x00000260       0x20 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_aranges
+                0x00000280       0x20 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_aranges
+                0x000002a0       0x20 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_aranges
+                0x000002c0       0x20 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_aranges
+                0x000002e0       0x20 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_aranges
+                0x00000300       0x20 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_aranges
+                0x00000320       0x20 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_aranges
+                0x00000340       0x20 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x11e14
+ *(.debug_info)
+ .debug_info    0x00000000     0x22d7 basketball.o
+ .debug_info    0x000022d7     0x2490 colors.o
+ .debug_info    0x00004767     0x1b65 football.o
+ .debug_info    0x000062cc      0xb29 main.o
+ .debug_info    0x00006df5     0x1fc7 menu.o
+ .debug_info    0x00008dbc      0xe71 template.o
+ .debug_info    0x00009c2d      0x414 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_info    0x0000a041      0xc46 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_info    0x0000ac87      0x552 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_info    0x0000b1d9      0x468 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_info    0x0000b641      0x8f6 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_info    0x0000bf37     0x105f g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_info    0x0000cf96      0x2fe g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_info    0x0000d294      0x941 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_info    0x0000dbd5     0x10eb g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_info    0x0000ecc0     0x1597 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_info    0x00010257      0x27c g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_info    0x000104d3      0x327 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_info    0x000107fa      0x5ac g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_info    0x00010da6      0x3f4 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_info    0x0001119a       0xc6 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_info    0x00011260       0xd0 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_info    0x00011330       0xce g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_info    0x000113fe       0xcb g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_info    0x000114c9       0xd5 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_info    0x0001159e      0x730 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_info    0x00011cce      0x146 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_abbrev   0x00000000     0x3a88
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x486 basketball.o
+ .debug_abbrev  0x00000486      0x4fc colors.o
+ .debug_abbrev  0x00000982      0x47e football.o
+ .debug_abbrev  0x00000e00      0x259 main.o
+ .debug_abbrev  0x00001059      0x459 menu.o
+ .debug_abbrev  0x000014b2      0x2f8 template.o
+ .debug_abbrev  0x000017aa      0x16b g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_abbrev  0x00001915      0x34d g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_abbrev  0x00001c62      0x1ff g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_abbrev  0x00001e61      0x1ca g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_abbrev  0x0000202b      0x250 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_abbrev  0x0000227b      0x32e g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_abbrev  0x000025a9      0x124 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_abbrev  0x000026cd      0x2a6 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_abbrev  0x00002973      0x303 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_abbrev  0x00002c76      0x464 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_abbrev  0x000030da      0x10a g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_abbrev  0x000031e4      0x175 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_abbrev  0x00003359      0x239 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_abbrev  0x00003592      0x1fe g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_abbrev  0x00003790       0x14 g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_abbrev  0x000037a4       0x14 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_abbrev  0x000037b8       0x14 g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_abbrev  0x000037cc       0x14 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_abbrev  0x000037e0       0x14 g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_abbrev  0x000037f4      0x1d7 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_abbrev  0x000039cb       0xbd g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_line     0x00000000     0x47c9
+ *(.debug_line)
+ .debug_line    0x00000000      0x512 basketball.o
+ .debug_line    0x00000512      0x678 colors.o
+ .debug_line    0x00000b8a      0x3a9 football.o
+ .debug_line    0x00000f33      0x1ef main.o
+ .debug_line    0x00001122      0x4c8 menu.o
+ .debug_line    0x000015ea      0x272 template.o
+ .debug_line    0x0000185c      0x25b g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_line    0x00001ab7      0x364 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_line    0x00001e1b      0x2df g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_line    0x000020fa      0x201 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_line    0x000022fb      0x2a5 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_line    0x000025a0      0x341 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_line    0x000028e1      0x239 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_line    0x00002b1a      0x320 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_line    0x00002e3a      0x3a5 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_line    0x000031df      0x6b1 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_line    0x00003890      0x176 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_line    0x00003a06      0x1ea g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_line    0x00003bf0      0x29f g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_line    0x00003e8f      0x1fc g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_line    0x0000408b       0xae g:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_line    0x00004139      0x107 g:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_line    0x00004240       0x9d g:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_line    0x000042dd       0xc9 g:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_line    0x000043a6       0xcd g:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_line    0x00004473      0x278 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_line    0x000046eb       0xde g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_frame    0x00000000     0x10b8
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x198 basketball.o
+ .debug_frame   0x00000198      0x174 colors.o
+ .debug_frame   0x0000030c       0xac football.o
+ .debug_frame   0x000003b8       0x30 main.o
+ .debug_frame   0x000003e8      0x164 menu.o
+ .debug_frame   0x0000054c       0xbc template.o
+ .debug_frame   0x00000608       0x8c g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_frame   0x00000694       0xe8 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_frame   0x0000077c       0xd0 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_frame   0x0000084c       0x64 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_frame   0x000008b0       0xc8 g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_frame   0x00000978       0xb4 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_frame   0x00000a2c       0x3c g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_frame   0x00000a68       0xbc g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_frame   0x00000b24       0x28 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_frame   0x00000b4c      0x2bc g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_frame   0x00000e08       0x28 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_frame   0x00000e30       0x3c g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_frame   0x00000e6c       0xac g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_frame   0x00000f18       0xc4 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_frame   0x00000fdc       0xbc g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_frame   0x00001098       0x20 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_str      0x00000000     0x3c52
+ *(.debug_str)
+ .debug_str     0x00000000     0x11b9 basketball.o
+                               0x12ae (size before relaxing)
+ .debug_str     0x000011b9      0x16c colors.o
+                               0x12f0 (size before relaxing)
+ .debug_str     0x00001325       0xc8 football.o
+                               0x11c7 (size before relaxing)
+ .debug_str     0x000013ed       0x45 main.o
+                                0x826 (size before relaxing)
+ .debug_str     0x00001432      0x1e3 menu.o
+                               0x12c0 (size before relaxing)
+ .debug_str     0x00001615       0x45 template.o
+                                0xa03 (size before relaxing)
+ .debug_str     0x0000165a      0x1e2 g:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                                0x392 (size before relaxing)
+ .debug_str     0x0000183c      0x1b1 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+                                0x857 (size before relaxing)
+ .debug_str     0x000019ed      0x10b g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+                                0x27e (size before relaxing)
+ .debug_str     0x00001af8      0x175 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+                                0x321 (size before relaxing)
+ .debug_str     0x00001c6d      0x40a g:/devkitPro/libnds/lib\libnds9.a(system.o)
+                                0x68c (size before relaxing)
+ .debug_str     0x00002077      0x10d g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+                                0x801 (size before relaxing)
+ .debug_str     0x00002184       0x6c g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                                0x2a4 (size before relaxing)
+ .debug_str     0x000021f0      0x2cd g:/devkitPro/libnds/lib\libnds9.a(background.o)
+                                0x71a (size before relaxing)
+ .debug_str     0x000024bd      0x714 g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                                0xbd3 (size before relaxing)
+ .debug_str     0x00002bd1      0x4c5 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                                0x832 (size before relaxing)
+ .debug_str     0x00003096       0xab g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+                                0x290 (size before relaxing)
+ .debug_str     0x00003141      0x104 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+                                0x35f (size before relaxing)
+ .debug_str     0x00003245      0x114 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                                0x41b (size before relaxing)
+ .debug_str     0x00003359       0xc1 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+                                0x29f (size before relaxing)
+ .debug_str     0x0000341a      0x7c6 g:/devkitPro/libnds/lib\libnds9.a(video.o)
+                                0xbe1 (size before relaxing)
+ .debug_str     0x00003be0       0x72 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+                                0x1d0 (size before relaxing)
+
+.debug_loc      0x00000000     0x73b8
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xef1 basketball.o
+ .debug_loc     0x00000ef1     0x149e colors.o
+ .debug_loc     0x0000238f      0x678 football.o
+ .debug_loc     0x00002a07       0xdb main.o
+ .debug_loc     0x00002ae2      0x8bf menu.o
+ .debug_loc     0x000033a1      0x484 template.o
+ .debug_loc     0x00003825      0x840 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_loc     0x00004065      0x88e g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_loc     0x000048f3      0x341 g:/devkitPro/libnds/lib\libnds9.a(decompress.o)
+ .debug_loc     0x00004c34      0x1ee g:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .debug_loc     0x00004e22      0x811 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_loc     0x00005633       0xe7 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_loc     0x0000571a      0x3da g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_loc     0x00005af4       0x1f g:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_loc     0x00005b13     0x1128 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_loc     0x00006c3b       0xe8 g:/devkitPro/libnds/lib\libnds9.a(syscalls.o)
+ .debug_loc     0x00006d23       0x58 g:/devkitPro/libnds/lib\libnds9.a(libnds_exit.arm.o)
+ .debug_loc     0x00006d7b      0x16a g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_loc     0x00006ee5      0x287 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_loc     0x0000716c      0x22b g:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_loc     0x00007397       0x21 g:/devkitPro/libnds/lib\libnds9.a(timeSupport.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0
+                0x00080000                _stack = .
+ *(.stack)
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb/ds_arm9_crt0.o
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crti.o
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtbegin.o
+LOAD Menu_screen.o
+LOAD Menu_screen_sub.o
+LOAD basketball_main.o
+LOAD basketball_sub.o
+LOAD coulours_main.o
+LOAD coulours_sub.o
+LOAD football_main.o
+LOAD football_sub.o
+LOAD help_basketball.o
+LOAD help_colors.o
+LOAD help_football.o
+LOAD basketball.o
+LOAD colors.o
+LOAD football.o
+LOAD main.o
+LOAD menu.o
+LOAD template.o
+LOAD Coulours_Sprites.o
+LOAD Sprites.o
+LOAD football_sprites.o
+LOAD menu_sprites.o
+LOAD g:/devkitPro/libnds/lib\libnds9.a
+START GROUP
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb\libgcc.a
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libg.a
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libc.a
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/thumb\libsysbase.a
+END GROUP
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtend.o
+LOAD g:/devkitpro/devkitarm/bin/../lib/gcc/arm-none-eabi/4.9.2/thumb/crtn.o
+OUTPUT(g:/devkitPro/myexamples/game/game.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0xa78
+ .debug_ranges  0x00000000       0xc8 basketball.o
+ .debug_ranges  0x000000c8      0x158 colors.o
+ .debug_ranges  0x00000220       0xb0 football.o
+ .debug_ranges  0x000002d0       0x10 main.o
+ .debug_ranges  0x000002e0      0x158 menu.o
+ .debug_ranges  0x00000438       0x30 template.o
+ .debug_ranges  0x00000468       0x58 g:/devkitPro/libnds/lib\libnds9.a(sprite.o)
+ .debug_ranges  0x000004c0       0x40 g:/devkitPro/libnds/lib\libnds9.a(trig.o)
+ .debug_ranges  0x00000500       0x68 g:/devkitPro/libnds/lib\libnds9.a(sprite_alloc.o)
+ .debug_ranges  0x00000568       0x18 g:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_ranges  0x00000580       0x98 g:/devkitPro/libnds/lib\libnds9.a(background.o)
+ .debug_ranges  0x00000618      0x340 g:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_ranges  0x00000958       0xc0 g:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_ranges  0x00000a18       0x18 g:/devkitPro/libnds/lib\libnds9.a(timers.o)
+ .debug_ranges  0x00000a30       0x48 g:/devkitPro/libnds/lib\libnds9.a(video.o)
