@@ -222,7 +222,6 @@ int colors(int REC)
 	    point.x+=33;
 		TrueSet[j].n = rand()%8;
       }
-	  TrueSet[3].n = 1;
 	  
 	timerStart(0, ClockDivider_1024, TIMER_FREQ_1024(1), timerCallBack2);
 	while(1)
