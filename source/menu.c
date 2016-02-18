@@ -21,21 +21,13 @@ int is_color(touchPosition touch)
   return 0;
 }
 
-int is_continue(touchPosition touch)
+
+
+int is_rating(touchPosition touch)
 {
-  int x= touch.px;
-  int y = touch.py;
-  Point border[5]={{206,169}, {206,185}, {223,162},{223,192},{239,176}};
-  if(x<=border[2].x)
-    if(x >= border[0].x && y >= border[0].y && y <= border[1].y)
-      return 1;
-	else 
-      return 0;
-  else
-    if((x-y <= border[2].x - border[2].y) && (x+y <= border[3].x + border[3].y))
-	  return 1;
-	else return 0;
-    	  
+  if(touch.px>=103 && touch.py>=164 && touch.py<=187 && touch.px<=126)
+  return 1;
+  return 0;
 }
 
 int is_play(touchPosition touch)
@@ -80,10 +72,11 @@ void init_border(Border *sprite, u8* gfx, OamState *oam)
 	dmaCopy(gfx+128*64, sprite->sprite_gfx_mem_bot, 64*64);
 }
 
-void manual(int num)
+/*void manual(int num)*/
+
+void manual(int num,const int mode)
 {
    touchPosition touch;
-   
    oamClear(&oamMain,0,128);
    oamClear(&oamSub,0,128);
    oamUpdate(&oamMain);
@@ -99,24 +92,30 @@ void manual(int num)
 		case 2:
 		decompress(help_footballBitmap, BG_GFX,  LZ77Vram);
 		break;
-	  }
+	}
 	while(1)
 	{
 	  touchRead(&touch);
 	  if(is_continue(touch)==1) break;
 	}
-    decompress(Menu_screenBitmap, BG_GFX,  LZ77Vram);
+	if(mode==1)
+	decompress(Menu_screenBitmap, BG_GFX,  LZ77Vram);
+	else
+	decompress(Menu_screen_twoBitmap, BG_GFX,  LZ77Vram);
+	
 }
 
-int menu(int *Result, int MONEY)
+
+
+int menu(int Result[], int MONEY,const int mode)
 {
     int pos_rec=231, pos_mon=98;
 	int RECORD=Result[1];
 	int i=0;
-	int num_game=1,prev_touch = 1,is_touch=0;
+	int num_game=1,prev_touch = 1,is_touch=0, is_rat=0;
     Num Numbers[10];
 	Num Record[3]={{pos_rec,45,0,0},{pos_rec-12,45,0,1},{pos_rec-24,45,0,1}};
-	Num Money[6]={{pos_mon,45,0,0},{pos_mon-12,45,0,1},{pos_mon-24,45,0,1},{pos_mon-36,45,0,0},{pos_mon-48,45,0,1},{pos_mon-60,45,0,1}};
+	Num Money[6]={{pos_mon,45,0,0},{pos_mon-12,45,0,1},{pos_mon-24,45,0,1},{pos_mon-36,45,0,1},{pos_mon-48,45,0,1},{pos_mon-60,45,0,1}};
 	Border BORDER = {98,70};
 	touchPosition touch;
 	
@@ -133,8 +132,12 @@ int menu(int *Result, int MONEY)
 
 	vramSetBankA(VRAM_A_MAIN_BG);
 	vramSetBankC(VRAM_C_SUB_BG);
-	
+    
+	if(mode==1)
 	decompress(Menu_screenBitmap, BG_GFX,  LZ77Vram);
+	else
+	decompress(Menu_screen_twoBitmap, BG_GFX,  LZ77Vram);
+	
 	decompress(Menu_screen_subBitmap, BG_GFX_SUB,  LZ77Vram);
 	
 	oamInit(&oamMain, SpriteMapping_1D_128, false);
@@ -156,17 +159,19 @@ int menu(int *Result, int MONEY)
        if (keysDown()&KEY_LEFT) {if(BORDER.x!=98-84){BORDER.x-=84;num_game--;}}
 	   
 	   prev_touch = is_touch;
-		if(touch.px==0 && touch.py==0)
+	   if(touch.px==0 && touch.py==0)
 		  is_touch=0;
-		else 
+	   else 
 		  is_touch=1;
+	   
 	   if(prev_touch==0)
 	   {
 	     if(is_basket(touch)==1) {BORDER.x=98;num_game=1;}
 	     if(is_football(touch)==1) {BORDER.x=98+84;num_game=2;} 
          if(is_color(touch)==1) {BORDER.x=98-84;num_game=0;} 
 		 if(is_play(touch)==1 || keysDown()&KEY_A) break;
-	     if(is_man(touch)==1 || keysDown()&KEY_B) {manual(num_game);}
+	     if(is_man(touch)==1 || keysDown()&KEY_B) {manual(num_game, mode);}
+		 if(mode==1)if(is_rating(touch)==1){is_rat=1; break;}
 	   }
 	   RECORD=Result[num_game];
 	   prepare_digits(RECORD,Record,Numbers,3);
@@ -191,5 +196,7 @@ int menu(int *Result, int MONEY)
 	oamClear(&oamSub,0,128);
 	oamUpdate(&oamMain);
 	oamUpdate(&oamSub);
+	if(is_rat == 1)
+	  return 3;
 	return num_game;
 }

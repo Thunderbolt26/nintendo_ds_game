@@ -1,0 +1,5 @@
+top 10
+dry 10
+pl 10
+klop 10
+GHOST 0

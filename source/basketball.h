@@ -6,22 +6,6 @@
 #define BALL_RADIUS 16
 #define BALL_DIAMETER 32 
 
-/*typedef struct
-{
-	int x;
-	int y;
-    int vx;
-	int vy;
-    int hide;
-	u16* sprite_gfx_mem;
-}Ball;*/
-
-/*typedef struct
-{
-	int vx;
-	int vy;
-}TURN;*/
-
 typedef struct
 {
 	int x;

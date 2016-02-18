@@ -59,11 +59,13 @@ menu.o: g:/devkitPro/myexamples/game/source/menu.c \
  g:/devkitPro/libnds/include/nds/arm9/video.h \
  g:/devkitPro/libnds/include/nds/arm9/videoGL.h \
  g:/devkitPro/myexamples/game/build/Menu_screen.h \
+ g:/devkitPro/myexamples/game/build/Menu_screen_two.h \
  g:/devkitPro/myexamples/game/build/Menu_screen_sub.h \
  g:/devkitPro/myexamples/game/source/menu_sprites.h \
  g:/devkitPro/myexamples/game/build/help_colors.h \
  g:/devkitPro/myexamples/game/build/help_basketball.h \
- g:/devkitPro/myexamples/game/build/help_football.h
+ g:/devkitPro/myexamples/game/build/help_football.h \
+ g:/devkitPro/myexamples/game/build/help_rating.h
 
 g:/devkitPro/myexamples/game/source/menu.h:
 
@@ -185,6 +187,8 @@ g:/devkitPro/libnds/include/nds/arm9/videoGL.h:
 
 g:/devkitPro/myexamples/game/build/Menu_screen.h:
 
+g:/devkitPro/myexamples/game/build/Menu_screen_two.h:
+
 g:/devkitPro/myexamples/game/build/Menu_screen_sub.h:
 
 g:/devkitPro/myexamples/game/source/menu_sprites.h:
@@ -194,3 +198,5 @@ g:/devkitPro/myexamples/game/build/help_colors.h:
 g:/devkitPro/myexamples/game/build/help_basketball.h:
 
 g:/devkitPro/myexamples/game/build/help_football.h:
+
+g:/devkitPro/myexamples/game/build/help_rating.h:

@@ -71,11 +71,13 @@ main.o: g:/devkitPro/myexamples/game/source/main.c \
  g:/devkitPro/myexamples/game/source/Coulours_Sprites.h \
  g:/devkitPro/myexamples/game/source/menu.h \
  g:/devkitPro/myexamples/game/build/Menu_screen.h \
+ g:/devkitPro/myexamples/game/build/Menu_screen_two.h \
  g:/devkitPro/myexamples/game/build/Menu_screen_sub.h \
  g:/devkitPro/myexamples/game/source/menu_sprites.h \
  g:/devkitPro/myexamples/game/build/help_colors.h \
  g:/devkitPro/myexamples/game/build/help_basketball.h \
- g:/devkitPro/myexamples/game/build/help_football.h
+ g:/devkitPro/myexamples/game/build/help_football.h \
+ g:/devkitPro/myexamples/game/build/help_rating.h
 
 g:/devkitPro/libnds/include/nds.h:
 
@@ -221,6 +223,8 @@ g:/devkitPro/myexamples/game/source/menu.h:
 
 g:/devkitPro/myexamples/game/build/Menu_screen.h:
 
+g:/devkitPro/myexamples/game/build/Menu_screen_two.h:
+
 g:/devkitPro/myexamples/game/build/Menu_screen_sub.h:
 
 g:/devkitPro/myexamples/game/source/menu_sprites.h:
@@ -230,3 +234,5 @@ g:/devkitPro/myexamples/game/build/help_colors.h:
 g:/devkitPro/myexamples/game/build/help_basketball.h:
 
 g:/devkitPro/myexamples/game/build/help_football.h:
+
+g:/devkitPro/myexamples/game/build/help_rating.h:

@@ -26,7 +26,7 @@ GRAPHICS	:=	data
 #---------------------------------------------------------------------------------
 # options for code generation
 #---------------------------------------------------------------------------------
-ARCH	:=	-mthumb -mthumb-interwork
+ARCH	:=	-mthumb -mthumb-interwork 
 
 CFLAGS	:=	-g -Wall -O2\
  		-march=armv5te -mtune=arm946e-s -fomit-frame-pointer\
@@ -42,7 +42,7 @@ LDFLAGS	=	-specs=ds_arm9.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lnds9
+LIBS	:= -ldswifi9 -lnds9
  
  
 #---------------------------------------------------------------------------------

@@ -78,3 +78,38 @@ void initNum(Num *sprites, u8* gfx, OamState *oam)
 	     i++;
 	  }
 }
+
+
+int is_continue(touchPosition touch)
+{
+  int x= touch.px;
+  int y = touch.py;
+  Point border[5]={{206,169}, {206,185}, {223,162},{223,192},{239,176}};
+  if(x<=border[2].x)
+    if(x >= border[0].x && y >= border[0].y && y <= border[1].y)
+      return 1;
+	else 
+      return 0;
+  else
+    if((x-y <= border[2].x - border[2].y) && (x+y <= border[3].x + border[3].y))
+	  return 1;
+	else return 0;
+    	  
+}
+
+int is_back(touchPosition touch)
+{
+  int x= touch.px;
+  int y = touch.py;
+  Point border[4]={{54,169}, {54,185}, {38,169},{38,192}};
+  if(x>=border[2].x)
+    if(x <= border[0].x && y >= border[0].y && y <= border[1].y)
+      return 1;
+	else 
+      return 0;
+  else
+    if((x-y >= border[3].x - border[3].y) && (x+y >= border[2].x + border[2].y))
+	  return 1;
+	else return 0;
+    	  
+}

@@ -3,9 +3,11 @@
 #include <nds.h>
 #include <stdio.h>
 #include <stdlib.h>
+
 #define SPRITE_DMA_CHANNEL 3
 #define LENGTH 256
 #define HEIGHT 192
+
 typedef struct
 {
 	int x;
@@ -44,6 +46,9 @@ static const int DMA_CHANNEL = 3;
 
 int TIME;
 void wait_click();
+
+int is_back(touchPosition touch);
+int is_continue(touchPosition touch);
 void prepare_digits(int score, Num *points,Num *sprites, int count_digits);
 void prepare_timer(int time, Num *points,Num *sprites);
 void initNum0(Num *sprites, u8* gfx, OamState *oam, Point num);

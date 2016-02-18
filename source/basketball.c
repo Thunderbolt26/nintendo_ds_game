@@ -6,9 +6,7 @@ void initBall(Ball *sprite, u8* gfx, OamState *oam)
 	sprite->sprite_gfx_mem = oamAllocateGfx(oam, SpriteSize_32x32, SpriteColorFormat_256Color);
 	for(i=0;i<4;i++)
 	dmaCopy(gfx+i*8*64, sprite->sprite_gfx_mem+i*4*32, 32*8);
-	
 }
-
 
 
 void initBasket(Basket *sprite, u8* gfx, OamState *oam)
@@ -49,8 +47,8 @@ TURN ball_vs_basket2(Ball ball, Basket basket)
 {
    Point basket_point[]={{225,102},{219,100},{226,100},{240,84},{240,40}};
    int size=5;
-   int x = ball.x + 16;
-   int y = ball.y + 16;
+   int x = ball.x + BALL_RADIUS;
+   int y = ball.y + BALL_RADIUS;
    TURN z={ball.vx,ball.vy};
    if((x - y <= basket_point[size-1].x - basket_point[size-1].y) && (x + y <= basket_point[size-2].x + basket_point[size-2].y) && (x>=basket_point[size-1].x-16) && (x<=basket_point[size-1].x))
    {
@@ -79,8 +77,8 @@ TURN ball_vs_basket2(Ball ball, Basket basket)
 TURN ball_vs_net(Ball ball, Basket basket)
 {
    Point basket_point[]={{182,104},{182,130},{240,130}};
-   int x = ball.x + 16;
-   int y = ball.y + 16;
+   int x = ball.x + BALL_RADIUS;
+   int y = ball.y + BALL_RADIUS;
    TURN z={ball.vx,ball.vy};
    if((x + y >= basket_point[0].x + basket_point[0].y) && (x + y <= basket_point[1].x + basket_point[1].y) && (x>=basket_point[1].x-16) && (x<=basket_point[1].x))
    {
@@ -100,8 +98,8 @@ TURN ball_vs_net(Ball ball, Basket basket)
 TURN ball_vs_basket1(Ball ball, Basket basket)
 {
   Point basket_point[]={{182,104},{181,103},{180,102},{181,101},{182,101},{183,101},{182,101},{183,102},{183,103}};
-  int x = ball.x + 16;
-  int y = ball.y + 16;
+  int x = ball.x + BALL_RADIUS;
+  int y = ball.y + BALL_RADIUS;
   TURN z={ball.vx,ball.vy};
   
   if((x-y < basket_point[2].x - basket_point[2].y) && (x + y >= basket_point[2].x + basket_point[2].y) && (x + y < basket_point[0].x + basket_point[0].y) )
